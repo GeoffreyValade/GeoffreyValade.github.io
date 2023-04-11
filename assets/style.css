@@ -122,7 +122,7 @@ body {
 
 }
 
-img..gallery-item {
+img.gallery-item {
 	width: 440px;
 	height: 440px;
 }
