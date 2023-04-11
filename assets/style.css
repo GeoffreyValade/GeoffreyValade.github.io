@@ -129,10 +129,6 @@ body {
 	padding: .5em;
 }
 
-img.gallery-item{
-	width: 440px;
-}
-
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
