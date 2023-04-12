@@ -87,7 +87,8 @@ body {
 	font-style: italic;
 	width: 60%;
 }
-#about-me p {
+
+.about-me__content{
 	width: 80%;
 	font-size: 14px;
 }
@@ -153,11 +154,10 @@ img.gallery-item {
 	padding-block: 3em;
 }
 .quote__text {
-	font-family: Spectral;
-	font-style: italic;
-	font-weight: 300;
-
+	font: 300 italic 40px/1.2 Spectral;
+	margin: 20px 0;
 }
+
 .quote__author {
 	font-family: Spectral;
 	font-weight: 800;
@@ -362,4 +362,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
