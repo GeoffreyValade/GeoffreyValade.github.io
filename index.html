@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Site web de Nina Carducci, photographe professionnelle basée à Paris. Découvrez sa galerie de photos artistiques, ses services de shooting et de retouche photo, ainsi que ses coordonnées pour la contacter.">
 	<title>Nina Carducci</title>
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
@@ -25,15 +26,15 @@
 </div>
 <div id="header">
 
-	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+	<div itemscope itemtype="http://schema.org/ImageGallery" id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 		</div>
 		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100" alt="photo 1 carousel"
+			<div class="carousel-item active" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100" itemprop="contentUrl" alt="photo 1 carousel"
 					srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-smaller.jpg 300w,
 						./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-small.jpg 1140w,
 						./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-medium.jpg 1580w,
@@ -41,11 +42,11 @@
 						./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-larger.jpg 2048w"
 				     	sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)">
 			</div>
-			<div class="carousel-item">
-				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100" alt="photo 2 carousel">
+			<div class="carousel-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100" itemprop="contentUrl" alt="photo 2 carousel">
 			</div>
-			<div class="carousel-item">
-				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="photo 3 carousel">
+			<div class="carousel-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" itemprop="contentUrl" alt="photo 3 carousel">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -60,7 +61,7 @@
 </div>
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.png" alt="autor photo"
+		<img src="./assets/images/nina.png" itemprop="contentUrl" itemscope itemtype="http://schema.org/ImageObject" alt="autor photo"
 		srcset="./assets/images/nina-smaller.png 256w,
 			./assets/images/nina-small.png 560w,
 			./assets/images/nina-medium.png 890w,
@@ -74,11 +75,11 @@
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
 </div>
-<div id="gallery">
+<div id="gallery" itemscope itemtype="http://schema.org/ImageGallery">
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
-		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item img-fluid" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" alt="gallery photo 1"
+		<div class="gallery"  style="display: none">
+			<img data-gallery-tag="Concert" class="gallery-item img-fluid" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" itemprop="contentUrl" itemscope itemtype="http://schema.org/ImageObject" alt="gallery photo 1"
 				srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-smallest.jpg 224w,
 					./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-small.jpg 448w,
 					./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-medium.jpg 608w,
@@ -86,7 +87,7 @@
 					./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-biggest.jpg 848w"
     				sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, (min-width: 480px) 424px, calc(87.5vw + 22px)">
 			
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="gallery photo 2"
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" itemprop="contentUrl" itemscope itemtype="http://schema.org/ImageObject" alt="gallery photo 2"
 				srcset="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-smaller.jpg 254w,
 					./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-small.jpg 448w,
 					./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-medium.jpg 608w,
@@ -94,19 +95,19 @@
 					./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-larger.jpg 848w"
 			     	sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, (min-width: 480px) 424px, calc(87.5vw + 22px)"/>
 				
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" alt="gallery photo 3"
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" itemprop="contentUrl" itemscope itemtype="http://schema.org/ImageObject" alt="gallery photo 3"
 				srcset="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-small.jpg 254w,
 					./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-medium.jpg 608w,
 					./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-large.jpg 848w"
 			     	sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, (min-width: 480px) 424px, calc(87.5vw + 22px)"/>
 			
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" alt="gallery photo 4"
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" itemprop="contentUrl" itemscope itemtype="http://schema.org/ImageObject" alt="gallery photo 4"
 				srcset="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-small.jpg 304w,
 					./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-medium.jpg 608w,
 					./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-large.jpg 848w"
 			    	 sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, (min-width: 480px) 424px, calc(87.5vw + 22px)"/>
 			
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" alt="gallery photo 5"
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" itemprop="contentUrl" itemscope itemtype="http://schema.org/ImageObject" alt="gallery photo 5"
 				srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-smaller.jpg 254w,
 					./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-small.jpg 448w,
 					./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-medium.jpg 608w,
@@ -114,7 +115,7 @@
 					./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-larger.jpg 848w"
 			   	  sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, (min-width: 480px) 424px, calc(87.5vw + 22px)"/>
 			
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" alt="gallery photo 6"
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" itemprop="contentUrl" itemscope itemtype="http://schema.org/ImageObject" alt="gallery photo 6"
 				srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-smaller.jpg 254w,
 					./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-small.jpg 448w,
 					./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-medium.jpg 608w,						
@@ -122,7 +123,7 @@
 					./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-larger.jpg 848w"
 			   	  sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, (min-width: 480px) 424px, calc(87.5vw + 22px)"/>
 			
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" alt="gallery photo 7"
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" itemprop="contentUrl" itemscope itemtype="http://schema.org/ImageObject" alt="gallery photo 7"
 				srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-smaller.jpg 254w,
 					./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-small.jpg 448w,
 					./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-medium.jpg 608w,
@@ -130,13 +131,13 @@
 					./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-larger.jpg 848w"
 			  	   sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, (min-width: 480px) 424px, calc(87.5vw + 22px)"/>
 			
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" alt="gallery photo 8"
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" itemprop="contentUrl" itemscope itemtype="http://schema.org/ImageObject" alt="gallery photo 8"
 				srcset="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-small.jpg 254w,
 					./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-medium.jpg 608w,
 					./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-larger.jpg 848w"
 			 	    sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, (min-width: 480px) 424px, calc(87.5vw + 22px)"/>
 			
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" alt="gallery photo 9"
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" itemprop="contentUrl" itemscope itemtype="http://schema.org/ImageObject" alt="gallery photo 9"
 				srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-medium.jpg 608w,
 					./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-larger.jpg 848w,"
 			   	  sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, (min-width: 480px) 424px, calc(87.5vw + 22px)"/>
@@ -213,7 +214,7 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.png" alt="contact image"
+			<img src="./assets/images/camera.png" itemprop="contentUrl" itemscope itemtype="http://schema.org/ImageObject" alt="contact image"
 			srcset="./assets/images/camera-small.png 419w,
 				./assets/images/camera-medium.png 838w"
 			sizes="(min-width: 1600px) 419px, (min-width: 1200px) calc(28.16vw - 26px), (min-width: 1020px) calc(43.75vw - 68px), (min-width: 980px) calc(200vw - 1612px), (min-width: 680px) calc(42.86vw - 63px), (min-width: 640px) calc(-975vw + 6653px), calc(75.94vw - 58px)">
