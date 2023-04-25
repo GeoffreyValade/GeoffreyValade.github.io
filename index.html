@@ -3,14 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	
 	<title>Nina Carducci</title>
 	<meta name="description" content="Site web de Nina Carducci, photographe professionnelle basée à Bordeaux. Découvrez sa galerie de photos artistiques, ses services de shooting et de retouche photo, ainsi que ses coordonnées pour la contacter.">
 	<meta property="og:title" content="Nina Carducci">
 	<meta property="og:description" content="Site web de Nina Carducci, photographe professionnelle basée à Bordeaux. Découvrez sa galerie de photos artistiques, ses services de shooting et de retouche photo, ainsi que ses coordonnées pour la contacter.">
 	<meta property="og:type" content="portfolio">
 	<meta property="og:site_name" content="Nina Carducci - Photographe Professionnelle">
-	<meta property="og:url" content="https://GeoffreyValade.github.io">
+	<meta property="og:url" content="https://geoffreyvalade.github.io/">
 	<meta property="og:image" content="https://github.com/GeoffreyValade/GeoffreyValade.github.io/blob/master/assets/images/nina.webp">
 
 	<meta name="twitter:card" content="summary_large_image">
@@ -25,56 +25,64 @@
 	<link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-<div class="top-header">
-	<h1 class="name">Nina Carducci</h1>
-	<div class="nav">   
-		<ul>
-			<li><a href="#about">À propos</a></li>
-			<li><a href="#gallery">Galerie</a></li>
-			<li><a href="#services">Service</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="icône instagram"></a></li>
-		</ul>
+
+<header>
+	<div class="top-header">
+		<h1 class="name">Nina Carducci</h1>
+			<nav>
+				<div class="nav">   
+					<ul>
+						<li><a href="#about">À propos</a></li>
+						<li><a href="#gallery">Galerie</a></li>
+						<li><a href="#services">Service</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="icône instagram"></a></li>
+					</ul>
+				</div>
+			</nav>
 	</div>
-</div>
-<div id="header">
-	<div itemscope itemtype="http://schema.org/ImageGallery" id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-		<div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+	<div id="header">
+		<div itemscope itemtype="http://schema.org/ImageGallery" id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" itemprop="contentUrl" alt="Un homme de dos marche sur un passage piéton"
+						srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-smaller.webp 300w,
+							./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-small.webp 1140w,
+							./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-medium.webp 1580w,
+							./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-large.webp 1920w,
+							./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-larger.webp 2048w"
+					     	sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)">
+							<meta name="description" content="Author : Nina Carducci, Category : photograph">
+				</div>
+				<div class="carousel-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" itemprop="contentUrl" alt="Des jeunes hommes et femmes s'amusent dans un rassemblement">
+					<meta name="description" content="Author : Nina Carducci, Category : photograph">
+				</div>
+				<div class="carousel-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" itemprop="contentUrl" alt="Un homme tout juste marié renverse sa fiancée pour l'embrasser lors de leur mariage">
+					<meta name="description" content="Author : Nina Carducci, Category : photograph">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
 		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" itemprop="contentUrl" alt="Un homme de dos marche sur un passage piéton"
-					srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-smaller.webp 300w,
-						./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-small.webp 1140w,
-						./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-medium.webp 1580w,
-						./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-large.webp 1920w,
-						./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-larger.webp 2048w"
-				     	sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)">
-						<meta name="description" content="Author : Nina Carducci, Category : photograph">
-			</div>
-			<div class="carousel-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" itemprop="contentUrl" alt="Des jeunes hommes et femmes s'amusent dans un rassemblement">
-				<meta name="description" content="Author : Nina Carducci, Category : photograph">
-			</div>
-			<div class="carousel-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" itemprop="contentUrl" alt="Un homme tout juste marié renverse sa fiancée pour l'embrasser lors de leur mariage">
-				<meta name="description" content="Author : Nina Carducci, Category : photograph">
-			</div>
-		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		</button>
 	</div>
-</div>
-<div id="about">
+</header>
+
+<main>
+<article id="about">
 	<div class="picture left">
 		<img src="./assets/images/nina.webp" itemprop="contentUrl" itemscope itemtype="http://schema.org/ImageObject" alt="Portrait Nina Carducci où elle sourit, dans une forêt"
 		srcset="./assets/images/nina-smaller.webp 256w,
@@ -87,13 +95,15 @@
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
 		<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
-		<p class="about-me__content">Nous passonsd notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
+		<p class="about-me__content">Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
-</div>
-<div id="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+</article>
+
+<section id="gallery" itemscope itemtype="http://schema.org/ImageGallery">
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
+		
 		<div class="gallery">
 			<img data-gallery-tag="Concert" class="gallery-item img-fluid" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" itemprop="contentUrl" itemscope itemtype="http://schema.org/ImageObject" alt="Une photo qui met en valeur les jeux de lumière rouge lors d'un concert. Des mains sont levées en bas de l'image."
 				srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-smallest.webp 224w,
@@ -166,7 +176,7 @@
 					./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-larger.webp 848w,"
 			   	sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, (min-width: 480px) 424px, calc(87.5vw + 22px)"/>
 				<meta name="description" content="Author : Nina Carducci, Category : photograph">
-		</div>
+			</div>
 	</div>
 	<div class="quote">
 		<figure>
@@ -176,8 +186,9 @@
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-</div>
-<div id="services">
+</section>
+
+<section id="services">
 	<h2 class="title">Mes services</h2>
 	<div class="container">
 
@@ -214,16 +225,20 @@
 			</div>
 		</div>
 	</div>
-</div>
-<div class="quote">
+</section>
+
+<article class="quote">
 	<figure>
 		<blockquote>
 			<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
-</div>
-<div id="contact">
+</article>
+</main>
+
+<footer>
+	<div id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h3>Une question ? Une demande de devis ?</h3>
@@ -246,9 +261,9 @@
 			<meta name="description" content="Author : Nina Carducci, Category : photograph">
 		</div>
 	</div>
-</div>
-	
-	
+	</div>
+</footer>
+
 <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="./assets/maugallery.js"></script>
